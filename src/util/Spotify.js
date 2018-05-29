@@ -1,7 +1,7 @@
 let accessToken = '';
 const urlPrefix = 'https://accounts.spotify.com/authorize';
 const client_id = 'dbef46650b42426990d1ab54572d92e1';
-const redirect_uri = 'http://basictest-jamming.surge.sh';
+const redirect_uri = 'http://basictest-jamming.surge.sh/';
 
 const tokenExp = /access_token=([^&]*)/;
 const expiresExp = /expires_in=([^&]*)/;
