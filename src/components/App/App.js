@@ -21,23 +21,11 @@ class App extends Component {
     this.search = this.search.bind(this);
     this.onSave = this.onSave.bind(this);
 
-    this.state = {searchResults: [
-      {
-        name: 'Girl in Stilettos',
-        artist: 'Annah Mac',
-        album: 'Little Stranger',
-        id: '0EXKzm0M2sXkLrTufKiRZu'
-      }
-    ],
-    playlistName: 'My playlist',
-    playlistTracks: [
-      {
-        name: 'Celia',
-        artist: 'Annah Mac',
-        album: 'Little Stranger',
-        id: '66VjlJMe31dtsZtH22JpQM'
-      }
-    ]};
+    this.state = {
+      searchResults: [],
+      playlistName: 'My playlist',
+      playlistTracks: []
+    };
 
   }
 
